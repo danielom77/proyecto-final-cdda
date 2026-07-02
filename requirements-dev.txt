@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+statsmodels
+dataretrieval
+plotly
+lightgbm
+scipy
+ipykernel
