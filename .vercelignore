@@ -1,0 +1,19 @@
+# Vercel is used as a proxy/front door. Python runs on Render.
+# Keep Vercel deployments small.
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+share/
+Data Original/
+artifacts/
+*.ipynb
+*.csv
+*.joblib
+*.pkl
+requirements-dev.txt
+build_dashboard_artifacts.py
+README_PLAN_B.md

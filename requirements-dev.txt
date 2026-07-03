@@ -2,12 +2,12 @@ pandas
 numpy
 matplotlib
 seaborn
+plotly
 scikit-learn
 xgboost
+lightgbm
 shap
 statsmodels
 dataretrieval
-plotly
-lightgbm
-scipy
 ipykernel
+jupyter

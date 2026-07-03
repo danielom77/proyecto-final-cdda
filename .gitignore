@@ -1,10 +1,10 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Entornos virtuales
+# Virtual environments
 .venv/
 venv/
 env/
@@ -13,24 +13,26 @@ Scripts/
 share/
 pyvenv.cfg
 
-# PyCharm
+# IDE / notebooks
 .idea/
-
-# Jupyter
 .ipynb_checkpoints/
 
-# Sistema
+# OS / temporary
 .DS_Store
 Thumbs.db
+*.log
 
-# Variables privadas
+# Local secrets
 .env
 
-# Vercel local
+# Vercel local metadata
 .vercel/
 
-# Datos originales pesados o innecesarios para la app
+# Raw source data not needed in production deployment
 Data Original/
 
-# Archivos temporales
-*.log
+# Old Plan B artifacts. Keep generated model artifacts out of this architecture.
+artifacts/
+build_dashboard_artifacts.py
+README_PLAN_B.md
+placeholder
