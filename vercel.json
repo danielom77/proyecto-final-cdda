@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://REEMPLAZA-CON-TU-BACKEND-RENDER.onrender.com/:path*"
+      "destination": "https://turbipredict-api.onrender.com/:path*"
     }
   ]
 }
